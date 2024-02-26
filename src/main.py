@@ -1,4 +1,4 @@
-from utils import load_last_five_executed_operations
+from src.utils import load_last_five_executed_operations
 import datetime
 
 last_operations = load_last_five_executed_operations()
