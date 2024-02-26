@@ -1,9 +1,10 @@
 from src.utils import load_last_five_executed_operations
 import datetime
 
-last_operations = load_last_five_executed_operations()
+last_operations = load_last_five_executed_operations
 
-for operation in last_operations:
+for operation in last_operations():
+
 
     def formatted_date():
         """Переводим формат даты исходника в требуемый формат"""
